@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: docs/
+  preview:
+    port: 4200
+    browser: true
+    navigate: true
+  render:
+    - "*.qmd"
+    - "!vignettes/"
+    - "!*.Rmd"
+
+website:
+  title: "things"
+  site-url: https://crumplab.com/things
+  description: Visual things by Matt Crump
+  open-graph:
+    image: imgs/things.jpg
+  twitter-card:
+    image: imgs/things.jpg
+  google-analytics: "G-5FFRFL1GSE"
+  sidebar:
+    style: "floating"
+    search: false
+    contents:
+      - href: index.qmd
+        text: home
+      - href: playground.qmd
+        text: playground
+      - href: wip.qmd
+        text: work in progress
+      - href: about.qmd
+        text: about
+  page-footer: |
+    Copyright 2019-2023 Matt Crump, All rights reserved.
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: full
+    grid:
+      sidebar-width: 100px
+      body-width: 2000px
+      margin-width: 150px
+
