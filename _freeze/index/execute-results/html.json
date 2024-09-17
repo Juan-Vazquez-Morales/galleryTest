@@ -1,0 +1,15 @@
+{
+  "hash": "abee5a7535f4e91d1d83e5106acd72ae",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Juan Antonio Vazquez Morales\"\nimage: imagenes-raw/perfil/juanVazquez-perfil.jpg\nabout:\n  template: trestles\n  image: imagenes-raw/perfil/juanVazquez-perfil.jpg\n  links:\n    - icon: facebook\n      text: Facebook\n      href: https://www.facebook.com/ja0314\n    - icon: google\n      text: Google Scholar\n      # href: https://scholar.google.com/citations?user=49EVuVcAAAAJ&hl=en\n    - icon: youtube\n      href: https://www.youtube.com/channel/UCZDGY_czy5Mw7yOWEsAnJcA\n      text: Youtube\n    - icon: github\n      text: Github\n      href: https://github.com\n    - icon: globe\n      text: BUAP\nengine: knitr\nformat:\n  html:\n    toc: false\n---\n\n::: {.cell}\n<style type=\"text/css\">\n#quarto-sidebar-glass {\n    display: none;\n  }\n</style>\n:::\n\n\n\nSoy doctor en matemáticas por la [Benemérita Universidad Autónoma de Puebla](https://www.buap.mx)  .......\n\n- Aqui podriamos poner algunos hobbies.\n- o listar algunas cosas que le agraden\n\n## Educación\n\nDoctorado, BUAP 202? - 2024 (Matemáticas)\n\nMaestría, BUAP ???? - 20?? (Probabilidad y Estadística)\n\nLicenciatura, BUAP ???? - ???? (Matemáticas Aplicadas)\n\n## Experiencia\n\nProfesor - BUAP (2024)\n\nOtro trabajo\n\nOtro trabajo\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

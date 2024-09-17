@@ -10,29 +10,55 @@ project:
     - "!vignettes/"
     - "!*.Rmd"
 
+execute:
+  freeze: auto
+
 website:
-  title: "things"
-  site-url: https://crumplab.com/things
-  description: Visual things by Matt Crump
-  open-graph:
-    image: imgs/things.jpg
-  twitter-card:
-    image: imgs/things.jpg
-  google-analytics: "G-5FFRFL1GSE"
+  title: "Aqui iría el nombre de su tesis"
+  # site-url: https://crumplab.com/things
+  description: Tesis doctoral
+  # open-graph:
+  #   image: imgs/things.jpg
+  # twitter-card:
+  #   image: imgs/things.jpg
+  # google-analytics: "G-5FFRFL1GSE"
   sidebar:
     style: "floating"
-    search: false
+    search: true
     contents:
       - href: index.qmd
-        text: home
-      - href: playground.qmd
-        text: playground
-      - href: wip.qmd
-        text: work in progress
-      - href: about.qmd
-        text: about
+      # - href: about.qmd
+        text: Inicio
+      - section: "Bivariadas"
+        contents:
+          - section: "Centro"
+            contents:
+              - section: "CO y O3"
+                contents:
+                  - text: "FrechetFrechet"
+                    href: wip.qmd
+                  - text: "WeibullFrechet"
+                  - text: "WeibullWeibull"
+          - section: "Noreste"
+          - section: "Noroeste"
+          - section: "Sureste"
+          - section: "Suroeste"
+      - section: Marginales
+        contents:
+          - section: "Centro"
+            contents:
+              - section: "CO"
+                contents:
+                  - text: "Frechet"
+                  - text: "Weibull"
+      # - href: playground.qmd
+        # text: playground
+      # - href: wip.qmd
+        # text: work in progress
+      # - href: about.qmd
+        # text: about
   page-footer: |
-    Copyright 2019-2023 Matt Crump, All rights reserved.
+    Copyright 2024 Juan Antonio Vazquez.
 
 format:
   html:
@@ -41,7 +67,7 @@ format:
     toc: true
     page-layout: full
     grid:
-      sidebar-width: 100px
+      sidebar-width: 155px
       body-width: 2000px
       margin-width: 150px
 

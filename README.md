@@ -1,6 +1,5 @@
-## Readme
 
-Visual portfolio website for Matt Crump.
-
-Built with Quarto.
 # galleryTest
+
+Galeria de imagenes generadas en la tesis
+
